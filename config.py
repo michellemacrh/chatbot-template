@@ -18,7 +18,7 @@ SUPPORTED_EXTENSIONS = ['.md', '.docx', '.pdf', '.csv', '.json', '.log', '.adoc'
 EMBEDDING_MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"  # HuggingFace model for embeddings
 
 # LLM settings
-OLLAMA_MODEL = "qwen3:1.7b"  # Default model to use
+OLLAMA_MODEL = "gemma3:latest"  # Default model to use
 OLLAMA_BASE_URL = "http://localhost:11434"  # URL for the Ollama server
 OLLAMA_TEMPERATURE = 0.1  # Controls randomness (0.0 = deterministic, 1.0 = creative)
 OLLAMA_NUM_CTX = 4096  # Context window size
